@@ -9,9 +9,9 @@ DEBUG = True
 
 # Connect to the database
 conn = psycopg2.connect(host='localhost',
-                            database='ffyur_db',
+                            database='fyyur_db',
                             user=os.environ['DB_USERNAME'],
                             password=os.environ['DB_PASSWORD'])
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = 'postgresql://alx:alx@123@localhost/fyyur_db'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:naslab123@localhost/fyyur_db'
